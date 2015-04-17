@@ -1,0 +1,2 @@
+#!/bin/sh
+node nooicenooice | tee -a log.log.log
