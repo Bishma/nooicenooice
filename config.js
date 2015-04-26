@@ -1,13 +1,13 @@
 var config = {};
 
-config.version = "0.1.2";
+config.version = "0.1.3";
 
 // hipchat user that the bot will be using
-config.userJid = ""; // must end with /bot
-config.password = "";
+config.userJid = process.env.NOOICE_USERJID; // must end with /bot
+config.password = process.env.NOOICE_PASSWORD;
 
 // hipchat v2 API token
-config.apiToken = "";
+config.apiToken = process.env.NOOICE_API;
 
 // rooms to automatically join on startup regardless of memory
 config.autojoin = [];

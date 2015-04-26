@@ -1,2 +1,5 @@
 #!/bin/sh
+if [ -f ./config.secure ]; then
+    source ./config.secure
+fi
 node nooicenooice | tee -a log.log.log
